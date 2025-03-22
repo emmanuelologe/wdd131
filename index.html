@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Emmanuel Ologe. A portfolio page with personal details and web development resources.">
+    <meta name="author" content="Emmanuel Ologe">
+    <title>WDD 131 – Dynamic Web Fundamentals - Emmanuel O. Ologe</title>
+    <link rel="stylesheet" href="style/base.css">
+    <script src="script/getdate.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Emmanuel O. Ologe</span></h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/emmanuel-ologe-1a8174236/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/courses/7888">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng&id=p2-p3#p2">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <p>My name is Emmanuel Ologe. I am passionate about web development and design. I love learning new technologies and improving my skills. I am also a creative and love making videos and editing it.</p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com">Udemy</a></li>
+                <li><a href="#">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025  Emmanuel Oluwatosin Ologe | Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
+    <script>
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
+</body>
+</html>
