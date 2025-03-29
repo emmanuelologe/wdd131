@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: white;
+    background: skyblue;
+    color: black;
     padding: 10px;
     position: relative;
 }
@@ -25,7 +25,7 @@ nav {
 #menu-toggle {
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 24px;
     cursor: pointer;
     display: none;
@@ -44,7 +44,7 @@ nav {
 }
 
 #nav-menu a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
 }
@@ -81,8 +81,8 @@ figcaption {
 
 /* Footer Styles */
 footer {
-    background: #333;
-    color: white;
+    background: skyblue;
+    color: black;
     padding: 10px;
     margin-top: 20px;
 }
